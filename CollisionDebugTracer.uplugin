@@ -1,0 +1,28 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CollisionDebugTracer",
+	"Description": "Helps trace and debug all collision types",
+	"Category": "Other",
+	"CreatedBy": "Tadeáš Anděl",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CollisionDebugTracerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "CollisionDebugTracer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
